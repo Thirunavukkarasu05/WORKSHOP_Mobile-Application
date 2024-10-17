@@ -21,13 +21,14 @@ Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
 ## PROGRAM:
-
+```
 Program to print the text “ExplicitIntent”.
 Developed by: PRAVEENA N
 Registeration Number : 212222040122
+```
 
 ## MainActivity.java:
-
+```
 package com.example.workshop;
 import android.os.Bundle;
 import androidx.activity.EdgeToEdge;
@@ -74,9 +75,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
+```
 ## MainActivity2.java:
-
+```
 package com.example.workshop;
 
 import android.content.Intent;
@@ -109,9 +110,9 @@ public class MainActivity2 extends AppCompatActivity {
         textViewContactNumber.setText("Contact Number: " + contactNumber);
     }
 }
-
+```
 ## activity_main.xml:
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -173,9 +174,9 @@ public class MainActivity2 extends AppCompatActivity {
         app:layout_constraintTop_toBottomOf="@id/editTextContactNumber" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 ## activity_second.xml:
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -224,9 +225,9 @@ public class MainActivity2 extends AppCompatActivity {
         app:layout_constraintTop_toBottomOf="@id/textViewEmail"
         app:layout_constraintWidth_percent="0.8" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 ### AndroidManifest.xml:
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -254,7 +255,7 @@ public class MainActivity2 extends AppCompatActivity {
     </application>
 
 </manifest>
-
+```
 ## OUTPUT:
 ![output1mobile](https://github.com/user-attachments/assets/dabc9674-9584-412d-80fe-043ba9343390)
 ![output2mobile](https://github.com/user-attachments/assets/dd8f2b73-0355-42e4-8924-5796b440c045)
