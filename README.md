@@ -257,8 +257,6 @@ public class MainActivity2 extends AppCompatActivity {
 </manifest>
 ```
 ## OUTPUT:
-![output1mobile](https://github.com/user-attachments/assets/dabc9674-9584-412d-80fe-043ba9343390)
-![output2mobile](https://github.com/user-attachments/assets/dd8f2b73-0355-42e4-8924-5796b440c045)
 
 
 ## RESULT:
